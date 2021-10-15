@@ -1,7 +1,7 @@
 .card {
-    border: 1px solid #F3F3F3;
-    padding: 10px;
-    width: 110px;
+    border: 2px solid #F3F3F3;
+    width: 170px;
+    height: 275px;
     border-radius: 20px;
     margin: 5px;
     transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
@@ -12,6 +12,11 @@
     margin-right: auto;
 }
 
+.icon {
+    border-radius: 20px;
+    width: 100%
+}
+
 .card:hover {
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.06);
     transform: translateY(-5px);
@@ -20,14 +25,17 @@
 
 .plus {
     cursor: pointer;
+    margin-bottom: 4px;
 }
 
 h5 {
+    font-size: 18px;
     margin: 0;
     height: 72px;
 }
 
 .cardFooter {
+    display: flex;
 }
 
 
