@@ -58,7 +58,6 @@ function App() {
                     isSort={isSort}
                 />
             </div>
-
             <div className="content">
                 <div className="totalGames">
                     <TotalGames
