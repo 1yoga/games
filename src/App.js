@@ -15,8 +15,10 @@ function App() {
             let data = await gamesResponse.json()
             setGamesData(data.data)
         } catch (error) {
-            alert("Ошибка при запросе данных")
-            console.error(error)
+            console.error("Ошибка при запросе данных из серевера" + error)
+            const gamesResponse = await fetch('games/games.json')
+            let data = await gamesResponse.json()
+            setGamesData(data.data)
         }
     }
 

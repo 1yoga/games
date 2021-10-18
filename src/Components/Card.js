@@ -14,7 +14,7 @@ let Card = ({icon_url, name, onRemove}) => {
             <img className={styles.icon} src={icon_url} alt="gameImage"/>
             <h5>{name}</h5>
             <div className={styles.cardFooter}>
-                <img onClick={onClickRemove} className={styles.plus} src={"img/delete.svg"} alt="Delete"/>
+                <img onClick={onClickRemove} className={styles.plus} src="games/img/delete.svg" alt="Delete"/>
             </div>
         </div>
     )
